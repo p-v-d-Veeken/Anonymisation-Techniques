@@ -1,0 +1,37 @@
+{
+  "k1": {
+    "age": {
+      "startBin": 20,
+      "binSize": 2
+    },
+    "education": {
+      "Preschool": "Early-Dropout",
+      "1st-4th": "Early-Dropout",
+      "5th-6th": "Early-Dropout",
+      "7th-8th": "Early-Dropout",
+      "9th": "Late-Dropout",
+      "10th": "Late-Dropout",
+      "11th": "Late-Dropout",
+      "12th": "Late-Dropout",
+      "HS-grad": "HS-grad",
+      "Some-college": "HS-grad",
+      "Assoc-acdm": "Associates",
+      "Assoc-voc": "Associates",
+      "Prof-school": "Undergraduate",
+      "Bachelors": "Undergraduate",
+      "Masters": "Master-Doctorate",
+      "Doctorate": "Master-Doctorate"
+    },
+    "race": {
+      "White": "White",
+      "Asian-Pac-Islander": "Other",
+      "Amer-Indian-Eskimo": "Other",
+      "Other": "Other",
+      "Black": "Black"
+    },
+    "sex": {
+      "Male": "Person",
+      "Female": "Peron"
+    }
+  }
+}
