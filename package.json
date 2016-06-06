@@ -1,0 +1,19 @@
+{
+  "name": "PET",
+  "description": "",
+  "version": "0.0.1",
+  "author": "Pieter van der Veeken (p.c.j.vanderveeken@student.tudelft.nl)",
+  "contributors": [
+    {
+      "name": "Stijn van Schooten",
+      "url": "s.vanschooten@student.tudelft.nl"
+    }
+  ],
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p-v-d-Veeken/PET"
+  },
+  "private": true
+}
