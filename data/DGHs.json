@@ -31,7 +31,47 @@
     },
     "sex": {
       "Male": "Person",
-      "Female": "Peron"
+      "Female": "Person"
+    }
+  },
+  "k2": {
+    "age": {
+      "startBin": 20,
+      "binSize": 5
+    },
+    "education": {
+      "Early-Dropout": "Dropout",
+      "Late-Dropout": "Dropout",
+      "HS-grad": "High-School Or Professional",
+      "Associates": "High-School Or Professional",
+      "Undergraduate": "Academic",
+      "Master-Doctorate": "Academic"
+    },
+    "race": {
+      "White": "Caucasian",
+      "Other": "Non-Caucasian",
+      "Black": "Non-Caucasian"
+    },
+    "sex": {
+      "Person": "Person"
+    }
+  },
+  "k3": {
+    "age": {
+      "startBin": 20,
+      "binSize": 10
+    },
+    "education": {
+      "Dropout": "Uneducated",
+      "High-School Or Professional": "Educated",
+      "Academic": "Educated"
+    },
+    "race": {
+      "Caucasian": "Some Race",
+      "Non-Caucasian": "Some Race"
+    },
+    "sex": {
+      "Person": "Person"
     }
   }
 }

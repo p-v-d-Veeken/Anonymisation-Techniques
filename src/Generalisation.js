@@ -13,6 +13,8 @@ function k_anonymity(data, k)
 		for(var i = 1; i <= k; i++)
 		{
 			person = education(person, dghs["k" + i].education);
+			person = race(person, dghs["k" + i].race);
+			person = sex(person, dghs["k" + i].sex);
 		}
 		stats.update(person);
 		

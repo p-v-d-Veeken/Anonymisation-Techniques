@@ -1,5 +1,5 @@
 var cols = require('./../data/cols');
-var qIds = ["age", "sex", "race", "education"].map(function(qId)
+var qIds = require('./../data/QIDs').map(function(qId)
 {
 	return cols[qId];
 });
