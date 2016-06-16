@@ -1,16 +1,31 @@
-var rl = require('linebyline');
-var dataStream = rl('./data/adult.data');
-var data = [];
+/****************************************************************************************************************
+ *                                                                                                              *
+ * This file reads the data file and parses the values within it. Entries with unknown values are automatically *
+ * skipped.                                                                                                     *
+ *                                                                                                              *
+ ****************************************************************************************************************/
+
+const readline = require('readline');
+const fs = require('fs');
+const rl = readline.createInterface({
+	input: fs.createReadStream('./data/adult.data')
+});
+const data = [];
 
 module.exports = 
 {
 	load: function(callback)
 	{
-		dataStream.on('line', function(line)
+		if(data.length > 0) 
+		{
+			callback();
+			return;
+		}
+		rl.on('line', function(line)
 		{
 			parsePerson(line);
 		});
-		dataStream.on('end', function()
+		rl.on('close', function()
 		{
 			callback();
 		})

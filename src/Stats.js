@@ -1,3 +1,11 @@
+/****************************************************************************************************************
+ *                                                                                                              *
+ * This file Provides the functionality to calculate various statistics of a dataset for each DGH. Statistics   *
+ * Such as number of categories a DGH has in a dataset, mean size of that category, size of smallest category   *
+ * and the categories themselves along with number of entries in each category.                                 *
+ *                                                                                                              *
+ ****************************************************************************************************************/
+
 function Stats(dghs, cols)
 {
 	this.stats = {};
@@ -5,12 +13,13 @@ function Stats(dghs, cols)
 	this.keys = [];
 	var $this = this;
 
-	Object.keys(dghs["k1"]).forEach(function(key)
+	Object.keys(dghs["Z1"]).forEach(function(key)
 	{
-		$this.keys.push(key);
+		$this.keys.push(key); //Init the stat object for each dgh. i.e {age:{cats:{}}}
 		$this.stats[key] = {"categories":{}};
 	})
 }
+//Is used to calculate the statistics of a dataset.
 Stats.prototype.calcStats = function(data)
 {
 	var $this = this;

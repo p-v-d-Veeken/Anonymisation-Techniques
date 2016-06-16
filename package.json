@@ -3,14 +3,11 @@
   "description": "",
   "version": "0.0.1",
   "author": "Pieter van der Veeken (p.c.j.vanderveeken@student.tudelft.nl)",
-  "contributors": [
-    {
-      "name": "Stijn van Schooten",
-      "url": "s.vanschooten@student.tudelft.nl"
-    }
-  ],
+  "scripts": {
+    "start": "node ./src/CLI.js"
+  },
   "dependencies": {
-    "linebyline": "^1.3.0"
+    "readline": "^1.3.0"
   },
   "repository": {
     "type": "git",

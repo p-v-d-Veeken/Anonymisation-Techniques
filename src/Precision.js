@@ -1,19 +1,20 @@
-var cols = require('./../data/cols');
-var qIds = require('./../data/QIDs').map(function(qId)
-{
-	return cols[qId];
-});
-console.log(qIds);
-var DGHs = require('./../data/DGHs.json');
+/****************************************************************************************************************
+ *                                                                                                              *
+ * This file Provides the functionality to calculate the precision of a generalized dataset.                    *
+ *                                                                                                              *
+ ****************************************************************************************************************/
+
+var qIds = require('./../data/QIDs');
 
 function precision(oldData, newData, levels)
 {
 	var sum = 0;
+	var Na = qIds.length;
 
 	qIds.forEach(function(qId)
 	{
-		sum += newData.length * levels[qId].current / levels[qId].max
+		sum += levels[qId].current / levels[qId].max
 	});
-	return 1 - sum / (oldData.length * qIds.length)
+	return 1 - sum * newData.length / (oldData.length * Na)
 }
 module.exports = precision;
