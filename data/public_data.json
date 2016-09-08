@@ -1,0 +1,22 @@
+{
+  "Patricia Conner":
+  {
+    "person": [39, 0, 0, "Masters", 0, 0, 0, 0, "Black", "Female", 0, 0, 0, "United-States", 0]
+  },
+  "Benjamin Hodges":
+  {
+    "person": [78, 0, 0, "Some-college", 0, 0, 0, 0, "White", "Male", 0, 0, 0, "United-States", 0]
+  },
+  "Sergio Townsend":
+  {
+    "person": [24, 0, 0, "Bachelors", 0, 0, 0, 0, "Asian-Pac-Islander", "Male", 0, 0, 0, "United-States", 0]
+  },
+  "Dianne Joseph":
+  {
+    "person": [31, 0, 0, "10th", 0, 0, 0, 0, "Black", "Female", 0, 0, 0, "United-States", 0]
+  },
+  "Rufus George":
+  {
+    "person": [52, 0, 0, "7th-8th", 0, 0, 0, 0, "Amer-Indian-Eskimo", "Male", 0, 0, 0, "United-States", 0]
+  }
+}

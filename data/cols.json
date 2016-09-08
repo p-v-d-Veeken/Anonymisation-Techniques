@@ -1,0 +1,17 @@
+{
+  "age": 0,
+  "workclass": 1,
+  "fnlwgt": 2,
+  "education": 3,
+  "education-num": 4,
+  "marital-satus": 5,
+  "occupation": 6,
+  "relationship": 7,
+  "race": 8,
+  "sex": 9,
+  "capital-gain": 10,
+  "capital-loss": 11,
+  "hours-per-week": 12,
+  "native-country": 13,
+  "income": 14
+}
