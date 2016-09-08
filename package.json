@@ -6,9 +6,6 @@
   "scripts": {
     "start": "node ./src/CLI.js"
   },
-  "dependencies": {
-    "readline": "^1.3.0"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/p-v-d-Veeken/PET"
